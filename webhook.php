@@ -1,8 +1,8 @@
 <?php
 require 'db.php';
 
-$channelSecret     = 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
-$channelAccessToken = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+$channelSecret     = '1f12ceebf817d6a21444c4b2966c09f6';
+$channelAccessToken = 'lh+TlDG+fV/ZKnIZ7Fkm+/7mbcKnKHbWAx47iCNyb8XwHktWbVgtY7LM4yIqQ24AnsWZ+HjvfJHC7dOTDRjzo4CcKn6jLBXeNkFeE1VWhg5aDYwCzoquk7y2VhHw9huvKJdFqt7kW3asRZqnm7ZO6QdB04t89/1O/w1cDnyilFU=';
 
 // ตรวจสอบ signature
 $body      = file_get_contents('php://input');
